@@ -11,7 +11,7 @@ best to use a fresh VM. The bootstrapper will install everything it needs.
 
 ## Installing
 
-    $ wget -qO- https://raw.github.com/progrium/dokku/master/bootstrap.sh | sudo bash
+    $ wget -qO- https://raw.github.com/sneakymichael/dokku/master/bootstrap.sh | sudo bash
 
 This may take around 5 minutes. Certainly better than the several hours it takes to bootstrap Cloud Foundry.
 
@@ -63,7 +63,7 @@ It's possible to run commands in the environment of the deployed application:
 Dokku itself is built out of plugins. Checkout the wiki for information about
 creating your own and a list of existing plugins:
 
-https://github.com/progrium/dokku/wiki/Plugins
+https://github.com/sneakymichael/dokku/wiki/Plugins
 
 ## Removing a deployed app
 
@@ -116,7 +116,7 @@ apply). Example:
 The bootstrap script allows the dokku repository URL to be overridden to bootstrap a host from
 your own clone of dokku using the DOKKU_REPO environment variable. Example:
 
-    $ wget https://raw.github.com/progrium/dokku/master/bootstrap.sh
+    $ wget https://raw.github.com/sneakymichael/dokku/master/bootstrap.sh
     $ chmod +x bootstrap.sh
     $ sudo DOKKU_REPO=https://github.com/yourusername/dokku.git ./bootstrap.sh
 
@@ -144,7 +144,7 @@ eventually replace the Docker image for buildstep.
 
 ## Support
 
-You can use [Github Issues](https://github.com/progrium/dokku/issues), check [Troubleshooting](https://github.com/progrium/dokku/wiki/Troubleshooting) on the wiki, or join us on Freenode in #dokku
+You can use [Github Issues](https://github.com/sneakymichael/dokku/issues), check [Troubleshooting](https://github.com/sneakymichael/dokku/wiki/Troubleshooting) on the wiki, or join us on Freenode in #dokku
 
 ## Components
 

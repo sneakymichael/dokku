@@ -5,7 +5,7 @@ sed -i 's/docker -d$/docker -d -r=true/' /etc/init/docker.conf
 echo $HOSTNAME > /home/git/HOSTNAME
 
 
-# temporary hack for https://github.com/progrium/dokku/issues/82
+# temporary hack for https://github.com/sneakymichael/dokku/issues/82
 # redeploys all apps after a reboot
 cat<<EOF > /etc/init/dokku-redeploy.conf
 description "Dokku app redeploy service"

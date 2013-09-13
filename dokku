@@ -79,7 +79,7 @@ case "$1" in
     pluginhook install
     ;;
 
-  # temporary hack for https://github.com/progrium/dokku/issues/82
+  # temporary hack for https://github.com/sneakymichael/dokku/issues/82
   deploy:all)
     for app in $(ls -d $HOME/*/); do
       APP=$(basename $app);
